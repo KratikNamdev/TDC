@@ -1,0 +1,269 @@
+*{
+    margin: 0;padding: 0;
+}
+.logo{
+    height: 70px;
+}
+.bartender-container{
+    height: 70vh;
+    width: 100vw;
+ background-image:url(./assets/batendorbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   color: white;
+}
+.bartender-overlap{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+
+}
+.bartender-container h1{
+    font-size: 45px;
+    letter-spacing: .6px;
+    font-weight: 500;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 200px;
+}
+.bartender-container p{
+    font-size: 25px;
+    letter-spacing: .5px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 20px;
+}
+.bartender-popular-courses{
+    height: 350vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    text-align: center;
+ 
+}
+.bartender-popular-courses h1{
+    font-size: 45px;
+    letter-spacing: .6px;
+    font-weight: 600;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 80px;
+}
+.bartender-popular-courses p{
+    font-size: 25px;
+    letter-spacing: .6px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 20px;
+    color: #B89B98;
+}
+.bartender-internationcourses{
+ 
+    width: 80%;
+    background-color: #063456;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+text-align: start;
+color: white;
+padding: 50px;
+margin-top: 20px;
+}
+.bartender-internationcourses h1{
+    font-size: 25px;
+    letter-spacing: .6px;
+    font-weight: 500;
+    font-family: "Source Sans Pro",sans-serif;
+   
+    margin-top: 1px !important;
+
+}
+.bartender-internationcourses p{
+    font-size: 20px;
+    letter-spacing: .6px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 20px;
+    color: white;
+  
+    
+}
+.bartender-internationcourses-list{
+    /* height: 200px; */
+    width: 80vw;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.bartender-internationcourses-list ul{
+    width: 50%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.bartender-internationcourses-list ul li{
+    font-size: 18px;
+    letter-spacing: .6px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.bartender-internationcourses-description{
+    height:200px;
+    width: 80vw;
+ display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+ 
+}
+.bartender-internationcourses-description-duration{
+    width: 50%;
+    font-size: 18px;
+    letter-spacing: .6px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 20px;
+    color: white;
+}
+
+.bartender-internationcourses-description-button {
+    width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.bartender-internationcourses-description-button button{
+    height: 60px;
+    width: 300px;
+    background-color: #DD2727;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    color: white;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+
+.bartender-advancecourses{
+    height: 220vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    text-align: center;
+
+  
+}
+
+
+.bartender-advancecourses h1{
+    font-size: 45px;
+    letter-spacing: .6px;
+    font-weight: 600;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 50px;
+}
+.bartender-advancecourses p{
+    font-size: 25px;
+    letter-spacing: .6px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 20px;
+    color: #B89B98;
+}
+.bartender-advancecourses-cards{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 50px;
+   
+}
+.bartender-advancecourses-card{
+    height: 380px;
+    width:320px;
+    background-color: #063456;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: start;
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.bartender-advancecourses-card h1{
+    font-size: 20px;
+    letter-spacing: .6px;
+    font-weight: 400;
+    font-family: "Source Sans Pro",sans-serif;
+    color: white;
+    margin-top: 0px;
+ 
+}
+.bartender-advancecourses-card h3{
+    font-size: 15px;
+    letter-spacing: .6px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.bartender-advancecourses-card p{
+    font-size: 15px;
+    letter-spacing: .6px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-top: 20px;
+    color: white;
+
+   
+
+}
+.bartender-advancecourses-card button{
+    height: 40px;
+    width: 300px;
+    background-color: #DD2727;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    color: white;
+    margin-top: 50px;
+
+}
+
