@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #DA2C0E;
+    --primary: #FFCA00;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -49,7 +49,7 @@
 
 .btn-primary{
     color: rgb(255, 255, 255) !important;
-    background-color: #DA2C0E;
+    background-color: #FFCA00;
     border: none;
     
 
@@ -57,7 +57,7 @@
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
-    background-color: #DA2C0E;
+    background-color: #FFCA00;
 }
 
 .btn-square {
@@ -734,3 +734,41 @@ font-weight: 300;
 .tdc-teams-left img{
     width: 60%;
 }
+.gallery {
+    column-count: 4;
+    --webkit-column-count: 4;
+    --moz-column-count: 4;
+    gap: 1rem;
+    padding: 4rem;
+  }
+  
+  .image img {
+    height: auto;
+    width: 100%;
+  }
+  
+  /* Responsive-ness for different screen-sizes */
+  @media screen and (max-width: 810px) {
+    .gallery {
+      column-count: 3;
+      --webkit-column-count: 3;
+      --moz-column-count: 3;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .gallery {
+      column-count: 2;
+      --webkit-column-count: 2;
+      --moz-column-count: 2;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .gallery {
+      column-count: 1;
+      --webkit-column-count: 1;
+      --moz-column-count: 1;
+    }
+  }
+  
