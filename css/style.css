@@ -729,6 +729,7 @@ font-weight: 300;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    line-height: 25px;
 }
 
 .tdc-teams-left img{
@@ -772,3 +773,7 @@ font-weight: 300;
     }
   }
   
+  .tdc-teams-right h4{
+    color: rgb(154, 154, 154);
+    font-size: 17px;
+  }
