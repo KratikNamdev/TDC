@@ -873,7 +873,7 @@ a {
 
 .TDC-container-card-img {
     width: 100%;
-    height: 50%;
+    /* height: 50%; */
     position: relative;
     overflow: hidden;
   
@@ -894,6 +894,7 @@ a {
 
 
 .TDC-container-card-text {
+    padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -922,9 +923,9 @@ a {
 
 .TDC-container-card-text-li {
     list-style: none;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Nunito", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     display: flex;
     flex-direction: row;
     gap: 7px;
