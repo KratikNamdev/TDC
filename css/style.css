@@ -891,7 +891,9 @@ a {
     transform: scale(1.1);
 }
 
-
+.sakilogo{
+    width: 100%;
+}
 
 .TDC-container-card-text {
     padding-top: 15px;
