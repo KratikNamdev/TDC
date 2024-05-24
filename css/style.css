@@ -538,7 +538,7 @@ a {
 
 }
 .HOSPITALITYheading{
-    font-size: 20px !important;
+    font-size: 21.5px !important;
 }
 .bartender-internationcourses {
 
@@ -959,4 +959,8 @@ a {
     justify-content: center;
     gap: 20px;
     padding: 50px;
+}
+.whyus{
+    display: flex;
+    flex-direction: row;
 }
