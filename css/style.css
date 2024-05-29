@@ -967,6 +967,16 @@ a {
 .whatsapp{
     position: fixed;
     height: 100px;
-    z-index: 99;
+    z-index: 100;
     top: 85%;
+    left: 90%;
+}
+.booknow{
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: none;
+
+    background-color: #FFCA00;
+
 }
