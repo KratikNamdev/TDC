@@ -980,3 +980,11 @@ a {
     background-color: #FFCA00;
 
 }
+.containerimg{
+    width: 60%;
+}
+.containerimg-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
