@@ -988,3 +988,97 @@ a {
     justify-content: center;
     align-items: center;
 }
+.men-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.men-card{
+    border: 1px solid #FFCA00;
+    background-color: #eec10f43;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 270px;
+}
+.men-card h3{
+    font-size: 20px;
+
+}
+.men-card p{
+    font-size: 15px;
+
+}
+.men-serv{
+width: 20%;
+border: 1px solid rgb(230, 229, 229);
+padding: 20px;
+border-radius: 20px;
+box-shadow: 7px 5px 13px -11px rgba(0,0,0,0.75);
+height: 300px;
+transition: .5s;
+
+}
+.men-serv img{
+    height: 60px;
+    margin-bottom: 30px;
+}
+.men-serv h2{
+    font-size: 20px;
+}
+.men-serv p{
+    font-size: 15px;
+}
+.men-servs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+.men-serv:hover{
+    background-color: #FFCA00;
+    color: white;
+}
+.men-serv:hover h2{
+    color: white;
+}
+
+.marquee {
+    width: 100%; /* Set the container width */
+    overflow: hidden; /* Hide overflowing content */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.marquee-content {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    gap: 50px;
+}
+
+.marquee img {
+    
+    height: 100px; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add spacing between images */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%); /* Scroll by 50% of the content width */
+    }
+}
