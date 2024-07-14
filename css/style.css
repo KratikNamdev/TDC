@@ -1183,3 +1183,30 @@ flex-direction: column;
         width: 100%;
     }
 }
+.event-icons-color{
+    background-color: #ffffff;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #FFCA00;
+}
+.event-icons-color img{
+    height: 90px;
+}
+.event-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.events-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
